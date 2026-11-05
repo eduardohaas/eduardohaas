@@ -45,7 +45,6 @@ flowchart LR
 ### Projects
 
 - [**management-pnl-dbt**](https://github.com/eduardohaas/management-pnl-dbt) — Management P&L for a group of companies: shared-cost allocation, inflation-adjusted results (Central Bank API), dbt layers, unit tests and CI with live docs.
-- [**HTML_For_PowerBI**](https://github.com/eduardohaas/HTML_For_PowerBI) — HTML & CSS snippets to build custom visuals inside Power BI through DAX measures.
 
 Most of my day-to-day work lives in private client repositories.
 
