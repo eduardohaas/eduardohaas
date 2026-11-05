@@ -45,6 +45,7 @@ flowchart LR
 ### Projects
 
 - [**management-pnl-dbt**](https://github.com/eduardohaas/management-pnl-dbt) — Management P&L for a group of companies: shared-cost allocation, inflation-adjusted results (Central Bank API), dbt layers, unit tests and CI with live docs.
+- [**fleet-fuel-analytics-dbt**](https://github.com/eduardohaas/fleet-fuel-analytics-dbt) — Fleet fuel cost against real ANP market prices (107k station prices, refreshed weekly): cost per km, overpayment and five anomaly rules, with incremental models.
 
 Most of my day-to-day work lives in private client repositories.
 
