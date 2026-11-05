@@ -1,22 +1,59 @@
-<h1 align="center">Hi 👋, I'm Eduardo Haas</h1>
-<h3 align="center">A Brazilian passionate about Data Analysis.</h3>
+<h1>Eduardo Haas</h1>
 
-<img align="right" alt="coding" width="400" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/699e4762225981.5a89af14d87a9.gif">
+**Senior Analytics Engineer · Data Engineer** — Santa Cruz do Sul, Brazil · open to remote
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=eduardohaas&label=Profile%20views&color=0e75b6&style=flat" alt="eduardohaas" /> </p>
+Business Administration graduate turned data engineer. I build production data platforms end to end — ingestion, layered modeling with dbt, business rules, BI and AI agents that sit on top of the data layer — for 30+ companies across 10+ industries, from hospitals to construction firms.
 
-- 👨‍💻 Welcome to my Github profile, a repository for sharing projects and knowledge.
+Mostly self-taught: I learned most of my stack by solving real client problems, which is why I care more about the right answer than the fanciest one.
 
-- ⚡My Career⚡
+`8+ years with production data` · `150+ data sources integrated` · `200+ dashboards shipped` · `600+ business users`
 
-    Constantly evolving in the field of data analysis, I began my journey working with tools like Excel and Power BI. Currently, I actively utilize SQL and Python, continuously seeking opportunities for growth and further development in my data analysis skills.
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/eduardo-haas-ab784b127/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ashutosh mishra" height="30" width="40" /></a>
-<a href="https://www.instagram.com/haascomdoisa/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="simplified_learner" height="30" width="40" /></a>
-<a href="https://chatdireto.com/51980519330" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="simplified learner" height="30" width="40" /></a>
-</p>
+### How I build data platforms
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="XXXXXX" target="_blank" rel="noreferrer"> <img src="https://seekvectorlogo.com/wp-content/uploads/2022/02/power-bi-vector-logo-2022.png" alt="c" width="70" height="40"/> </a> <a href="XXXXXXXXX" target="_blank" rel="noreferrer"> <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" alt="cplusplus" width="90" height="40"/> </a> <a href="xxxxxxxxx" target="_blank" rel="noreferrer"> <img src="https://cdn-icons-png.flaticon.com/512/29/29165.png" alt="css3" width="40" height="40"/> </a> <a href="XXXXXXXXXXXXXXXXXXXXXX" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/826px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" alt="html5" width="40" height="40"/> </a> <a href="xxxxxxxxx" target="_blank" rel="noreferrer"> <img src="https://analyticstraininghub.com/wp-content/uploads/2020/10/icon-tableau.png" alt="java" width="50" height="40"/> </a> <a href="xxxxxxxxxxxxxxxxxxx" target="_blank" rel="noreferrer"> <img src="https://media.licdn.com/dms/image/C560BAQEriwiegIkPbw/company-logo_200_200/0/1587766356761?e=2147483647&v=beta&t=WihYlIIB2WrR8-9IU10CSQGYD8vIRrupfh3CYeRuTvc" alt="javascript" width="60" height="40"/> </a> <a href="xxxxxxxxx" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/figma-5.svg" alt="matlab" width="40" height="40"/> </a> <a href="xxxxxxxxxx" target="_blank" rel="noreferrer"> <img src="https://www.alura.com.br/artigos/assets/html-css-js/imagem-1.png" alt="matlab" width="40" height="40"/> </a> <a href="XXXXXXXXX" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="matlab" width="30" height="40"/> 
+```mermaid
+flowchart LR
+    A[ERPs · APIs · spreadsheets<br/>PostgreSQL · MySQL] -->|Python ETL/ELT · n8n| B[(BigQuery)]
+    subgraph dbt
+      B --> C[raw] --> D[staging] --> E[marts]
+    end
+    E --> F[Power BI dashboards]
+    E --> G[Next.js data apps]
+    E --> H[AI agents via MCP]
+```
+
+- **Modeling & business rules** — management P&L for a hospital, multi-company cost allocation, KPI layers that finance teams actually trust.
+- **Data apps** — 15+ custom apps (Next.js, Supabase) where operations feed the warehouse directly: fleet logs, WhatsApp integrations, KPI portals.
+- **AI on the data layer** — agents that draft commercial proposals and an MCP server that lets Claude query and act on company operations.
+
+### Stack
+
+![BigQuery](https://img.shields.io/badge/BigQuery-0b6e5f?style=flat-square&logo=googlebigquery&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-0b6e5f?style=flat-square)
+![SQL](https://img.shields.io/badge/SQL-0b6e5f?style=flat-square&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0b6e5f?style=flat-square&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-0b6e5f?style=flat-square)
+![n8n](https://img.shields.io/badge/n8n-0b6e5f?style=flat-square&logo=n8n&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-0b6e5f?style=flat-square&logo=googlecloud&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0b6e5f?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-0b6e5f?style=flat-square&logo=supabase&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-0b6e5f?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-0b6e5f?style=flat-square&logo=typescript&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude%20·%20MCP-0b6e5f?style=flat-square&logo=anthropic&logoColor=white)
+
+### Projects
+
+- **Building now:** a public dbt project (staging → marts, tests, CI on GitHub Actions) and an MCP server that lets an AI agent answer business questions from those marts.
+- [**HTML_For_PowerBI**](https://github.com/eduardohaas/HTML_For_PowerBI) — HTML & CSS snippets to build custom visuals inside Power BI through DAX measures.
+
+Most of my day-to-day work lives in private client repositories.
+
+### Certifications
+
+- **Anthropic Academy** — Building with the Claude API · Claude Code in Action · Model Context Protocol · Agent Skills (2026)
+- **Data Science Academy** — Data Warehouse Design · Data Lake Design & Integration · Big Data Analytics · ML & AI in Distributed Environments (2023–24)
+
+### Get in touch
+
+[LinkedIn](https://www.linkedin.com/in/eduardo-haas-ab784b127/) · [eduardo@datenconsultoria.com.br](mailto:eduardo@datenconsultoria.com.br) · Portuguese (native) · English (B2)
